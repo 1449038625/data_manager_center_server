@@ -1,9 +1,11 @@
-package com.zbz.data_manager_center_server;
+package com.zbz.usercenter;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
+@MapperScan("com.zbz.usercenter.mapper")
 public class DataManagerCenterServerApplication {
 
     public static void main(String[] args) {

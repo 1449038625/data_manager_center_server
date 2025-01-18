@@ -1,4 +1,4 @@
-package com.zbz.data_manager_center_server;
+package com.zbz.usercenter;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
